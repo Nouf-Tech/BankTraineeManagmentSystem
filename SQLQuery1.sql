@@ -1,0 +1,6 @@
+﻿
+ALTER TABLE Tasks ADD EmployeeID INT NULL;
+
+ALTER TABLE Tasks ADD TasskDescription NVARCHAR(500) NULL;
+
+ALTER TABLE Tasks ADD [Priority] NVARCHAR(20) NULL;
